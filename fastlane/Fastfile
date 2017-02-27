@@ -1,0 +1,6 @@
+lane :test do
+  devicelab_bot(
+    app_name: 'My Awesome App',
+    base_url: 'http://devicelab.bot.com',
+  )
+end
